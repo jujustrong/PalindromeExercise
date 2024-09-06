@@ -6,7 +6,18 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var palinWord = new WordSmith();
+            Console.WriteLine(palinWord.IsAPalindrome("racecar"));
+            Console.WriteLine(palinWord.IsAPalindrome("civic"));
+            Console.WriteLine(palinWord.IsAPalindrome("bandit"));
+            Console.WriteLine(palinWord.IsAPalindrome("fox"));
+
+
+
         }
+
+
+
+
     }
 }
